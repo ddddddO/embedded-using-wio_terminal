@@ -1,8 +1,10 @@
 # embedded-using-wio_terminal
 『基礎から学ぶ 組込みRust』を試してみる(Rust and Go)
 
-## 素材
-- [一式](https://github.com/ddddddO/embedded-using-wio_terminal/blob/main/20211220.jpg)
+### Wio Terminal
+- [Wio Terminalをはじめよう](https://wiki.seeedstudio.com/jp/Wio-Terminal-Getting-Started/)
+  - [回路図](https://files.seeedstudio.com/wiki/Wio-Terminal/res/Wio-Terminal-SCH-v1.2.pdf)
+  - [ATSAMD51P19A データシート](https://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D5x_E5x_Family_Data_Sheet_DS60001507G.pdf)
 
 ## Rust
 - [サポートサイト](https://github.com/tomoyuki-nakabayashi/Embedded-Rust-from-Basics)
@@ -18,3 +20,7 @@
 
 ## Go
 - [Go Conference 2021 Autumn 内の Wio Terminal を使った TinyGo ハンズオン用の記事](https://github.com/sago35/tinygo-workshop)
+
+## 素材
+- ![一式](20211220.jpg)
+- ![接続](20211229.jpg)
