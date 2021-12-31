@@ -46,11 +46,24 @@ fn main() -> ! {
     );
 
     // TODO: グローバル変数に格納されているNoneをSomeで上書きする
+    unsafe {
+        UART = Some(serial);
+        writeln!(UART.as_mut().unwrap(), "hello {}", "world").unwrap();
+    }
 
     // TODO: わざとNoneをunwrap()してパニックを発生させる
+    let none: Option<usize> = None;
+    none.unwrap();
 
     loop {}
 }
 
 // TODO: パニックハンドラを実装する
+#[panic_handler]
+fn panic(info: &PanicInfo) -> ! {
+    unsafe {
+        writeln!(UART.as_mut().unwrap(), "panic!: {}", info).ok();
+    }
 
+    loop {}
+}

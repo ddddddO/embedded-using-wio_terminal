@@ -9,3 +9,9 @@
 
 6-3-echo:
 	cargo hf2 --example 6-3-echo
+
+6-3-panic_handler_global:
+	cargo hf2 --example 6-3-panic_handler_global
+
+6-3-panic_handler_safe:
+	cargo hf2 --example 6-3-panic_handler_safe
