@@ -14,9 +14,9 @@
 
 - Windows(powershell)で実施
 
-- `C:\DEV\workspace\GO\src\github.com\Embedded-Rust-from-Basics\examples\wio_examples` 配下で、`cargo hf2 --example xxxx` でサンプル実行できる。以下が出来た。
-  - WioTerminal(UART送信機能) -> シリアルターミナル(シリアル通信)でhello worldを出力(6-3-uart)
-  - シリアルターミナル(TeraTerm):文字列入力 -> (UART受信機能) WioTerminal (UART送信機能) -> シリアルターミナル:文字列出力 (6-3-echo)
+- `C:\DEV\workspace\GO\src\github.com\ddddddO\embedded-using-wio_terminal\rust\wio-examples` 配下で、`make xxxx` でサンプル実行できる。以下が出来た。
+  - WioTerminal(UART送信機能) -> シリアルターミナル(TeraTerm)でhello worldを出力(`make 6-3-uart`)
+  - シリアルターミナル(TeraTerm):文字列入力 -> (UART受信機能) WioTerminal (UART送信機能) -> シリアルターミナル:文字列出力 (`make 6-3-echo`)
 
 ## Go
 - [Go Conference 2021 Autumn 内の Wio Terminal を使った TinyGo ハンズオン用の記事](https://github.com/sago35/tinygo-workshop)
